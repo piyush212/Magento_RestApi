@@ -1,0 +1,6 @@
+<?xml version="1.0" ?>
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:framework:ObjectManager/etc/config.xsd">
+    <preference for="Hello\RestApi\Api\ProductRepositoryInterface" type="Hello\RestApi\Model\Api\ProductRepository"/>
+<preference for="Hello\RestApi\Api\RequestItemInterface" type="Hello\RestApi\Model\Api\RequestItem"/>
+<preference for="Hello\RestApi\Api\ResponseItemInterface" type="Hello\RestApi\Model\Api\ResponseItem"/>
+</config>
