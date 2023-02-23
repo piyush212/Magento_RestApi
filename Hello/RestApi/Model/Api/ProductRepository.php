@@ -40,20 +40,7 @@ class ProductRepository implements ProductRepositoryInterface
      * @param ResponseItemInterfaceFactory $responseItemFactory
      * @param StoreManagerInterface $storeManager
      */
-    // public function __construct(
-    //     Action $productAction,
-    //     CollectionFactory $productCollectionFactory,
-    //     RequestItemInterfaceFactory $requestItemFactory,
-    //     ResponseItemInterfaceFactory $responseItemFactory,
-    //     StoreManagerInterface $storeManager
-    // ) {
-    //     $this->productAction = $productAction;
-    //     $this->productCollectionFactory = $productCollectionFactory;
-    //     $this->requestItemFactory = $requestItemFactory;
-    //     $this->responseItemFactory = $responseItemFactory;
-    //     $this->storeManager = $storeManager;
-    // }
-
+  
     /**
      * @var \Magento\Catalog\Api\ProductRepositoryInterface
      */
