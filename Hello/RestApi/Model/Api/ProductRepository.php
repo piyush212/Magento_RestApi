@@ -58,20 +58,8 @@ class ProductRepository implements ProductRepositoryInterface
       
         return $this->productRepository->getById($id);
     }
-    /**
-     * {@inheritDoc}
-     *
-     * @param int $id
-     * @return ResponseItemInterface
-     * @throws NoSuchEntityException
-     */
-    /**
-     * {@inheritDoc}
-     *
-     * @param int $id
-     * @return ResponseItemInterface
-     * @throws NoSuchEntityException
-     */
+   
+    
     public function getItem(int $id) : mixed
     {
         $collection = $this->getProductCollection()
